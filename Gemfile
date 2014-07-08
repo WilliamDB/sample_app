@@ -40,7 +40,9 @@ gem 'spring',        group: :development
 
 
 group :development do
+  gem 'capybara'
   gem 'rspec-rails', '3.0.1'
+  gem 'webrat', '0.7.1'
 end
 
 group :test do
