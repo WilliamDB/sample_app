@@ -42,7 +42,7 @@ gem 'spring',        group: :development
 group :development do
   gem 'capybara'
   gem 'rspec-rails', '3.0.1'
-  gem 'webrat', '0.7.1'
+  #gem 'annotate-models', '1.0.4'
 end
 
 group :test do
