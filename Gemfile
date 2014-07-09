@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.2'
 # Use mysql as the database for Active Record
 gem 'mysql2'
+#  Gravatar
+gem 'gravatar_image_tag', '1.0.0.pre2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -49,4 +51,5 @@ group :test do
   gem 'rspec', '3.0.0'
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc5'
+  gem 'factory_girl_rails', '1.0'
 end
