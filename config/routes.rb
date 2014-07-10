@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :sessions, :only => [:new, :create, :destroy]
+
+  get 'signout', to: 'sessions#destroy'
+
+  get '/signin', to: 'sessions#new'
+
   #get "users/:id", to: "users#show"
   resources :users
 
